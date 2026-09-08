@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arbaz | DevOps Engineer</title>
+
+    <title>Arbaz | DevOps Fresher</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-    <nav>
+    <div class="nav">
+
         <h2>ARBAZ</h2>
 
-        <div class="nav-links">
+        <nav>
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
-        </div>
-    </nav>
+        </nav>
+
+    </div>
 </header>
+
+
+<!-- HOME -->
 
 <section id="home" class="hero">
 
     <div class="hero-text">
+
         <p class="small-title">HELLO, I'M</p>
 
-        <h1>Mohammed <span>Arbaz</span></h1>
+        <h1>Mohammed Arbaz</h1>
 
-        <h2>DevOps Engineer</h2>
+        <h2>DevOps <span>Engineer</span></h2>
 
         <p>
             DevOps enthusiast focused on automation, cloud infrastructure,
@@ -38,37 +47,37 @@
         </p>
 
         <div class="buttons">
-            <a href="#projects" class="btn">View Projects</a>
-            <a href="#contact" class="btn secondary">Contact Me</a>
+
+            <a href="#projects" class="btn">
+                View Projects
+            </a>
+
+            <a href="#contact" class="btn outline">
+                Contact Me
+            </a>
+
         </div>
+
     </div>
 
-    <div class="terminal-card">
-        <div class="terminal-top">
-            <span>●</span>
-            <span>●</span>
-            <span>●</span>
-        </div>
 
-        <div class="terminal-body">
-            <p>$ whoami</p>
-            <h3>arbaz@devops</h3>
+    <div class="profile-box">
 
-            <p>$ skills</p>
-            <h3>Linux Docker Jenkins AWS</h3>
+        <img src="profile.png" alt="Mohammed Arbaz">
 
-            <p>$ status</p>
-            <h3 class="success">Ready to Deploy 🚀</h3>
-        </div>
     </div>
 
 </section>
+
+
+
+<!-- ABOUT -->
 
 <section id="about" class="section">
 
     <p class="section-title">ABOUT ME</p>
 
-    <h2>Building and Automating <span>Reliable Systems</span></h2>
+    <h2>Building and Automating Reliable Systems</h2>
 
     <p class="description">
         I am a Diploma graduate and aspiring DevOps Engineer.
@@ -76,69 +85,110 @@
         Kubernetes and Terraform to build automated deployment workflows.
     </p>
 
-</section>
 
-<section id="skills" class="section">
+    <div class="info-grid">
 
-    <p class="section-title">TECHNICAL SKILLS</p>
+        <div>
 
-    <h2>My <span>DevOps Toolkit</span></h2>
+            <strong>Education</strong>
 
-    <div class="skills-grid">
+            <p>
+                Diploma in Electronics & Communication Engineering
+            </p>
 
-        <div class="skill-card">
-            <h3>🐧 Linux</h3>
-            <p>Ubuntu, Linux commands, shell basics and server management.</p>
         </div>
 
-        <div class="skill-card">
-            <h3>🔀 Git & GitHub</h3>
-            <p>Version control, branches, commits, SSH and repositories.</p>
+
+        <div>
+
+            <strong>Experience</strong>
+
+            <p>
+                IoT / Automation Internship
+            </p>
+
         </div>
 
-        <div class="skill-card">
-            <h3>🐳 Docker</h3>
-            <p>Images, containers, Dockerfiles, ports and Docker Hub.</p>
-        </div>
 
-        <div class="skill-card">
-            <h3>⚙️ Jenkins</h3>
-            <p>CI/CD pipelines and automated application deployment.</p>
-        </div>
+        <div>
 
-        <div class="skill-card">
-            <h3>☁️ AWS</h3>
-            <p>EC2 and cloud-based application deployment.</p>
-        </div>
+            <strong>Career Goal</strong>
 
-        <div class="skill-card">
-            <h3>☸️ Kubernetes</h3>
-            <p>Containers, pods, deployments and services.</p>
-        </div>
+            <p>
+                DevOps / Cloud Engineer
+            </p>
 
-        <div class="skill-card">
-            <h3>🏗️ Terraform</h3>
-            <p>Infrastructure as Code and automated infrastructure.</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>🔁 CI/CD</h3>
-            <p>Automated build, test and deployment workflows.</p>
         </div>
 
     </div>
 
 </section>
 
+
+
+<!-- SKILLS -->
+
+<section id="skills" class="section">
+
+    <p class="section-title">TECHNICAL SKILLS</p>
+
+    <h2>My DevOps Toolkit</h2>
+
+
+    <div class="skills">
+
+        <div>
+            🐧 Linux
+        </div>
+
+        <div>
+            🔀 Git & GitHub
+        </div>
+
+        <div>
+            🐳 Docker
+        </div>
+
+        <div>
+            ⚙️ Jenkins
+        </div>
+
+        <div>
+            ☁️ AWS
+        </div>
+
+        <div>
+            ☸️ Kubernetes
+        </div>
+
+        <div>
+            🏗️ Terraform
+        </div>
+
+        <div>
+            🔁 CI/CD
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- PROJECTS -->
+
 <section id="projects" class="section">
 
     <p class="section-title">PROJECTS</p>
 
-    <h2>Featured <span>DevOps Projects</span></h2>
+    <h2>Featured DevOps Projects</h2>
 
-    <div class="projects-grid">
+
+    <div class="project-grid">
+
 
         <div class="project-card">
+
             <h3>Employee Management Portal</h3>
 
             <p>
@@ -146,14 +196,16 @@
                 with Jenkins-based CI/CD automation.
             </p>
 
-            <div class="tags">
-                <span>Docker</span>
-                <span>Jenkins</span>
-                <span>AWS</span>
-            </div>
+            <span>
+                Docker • Jenkins • AWS
+            </span>
+
         </div>
 
+
+
         <div class="project-card">
+
             <h3>TechNova DevOps Website</h3>
 
             <p>
@@ -161,14 +213,16 @@
                 and deployed through an automated Jenkins pipeline.
             </p>
 
-            <div class="tags">
-                <span>Git</span>
-                <span>Docker</span>
-                <span>Jenkins</span>
-            </div>
+            <span>
+                Git • Docker • Jenkins
+            </span>
+
         </div>
 
+
+
         <div class="project-card">
+
             <h3>Cloud Infrastructure Project</h3>
 
             <p>
@@ -176,39 +230,73 @@
                 AWS and Kubernetes deployment concepts.
             </p>
 
-            <div class="tags">
-                <span>AWS</span>
-                <span>Kubernetes</span>
-                <span>Terraform</span>
-            </div>
+            <span>
+                AWS • Kubernetes • Terraform
+            </span>
+
         </div>
+
 
     </div>
 
 </section>
 
+
+
+<!-- CONTACT -->
+
 <section id="contact" class="contact">
 
-    <p class="section-title">CONTACT</p>
+    <p class="section-title">GET IN TOUCH</p>
 
-    <h2>Let's Build Something <span>Together</span></h2>
+    <h2>Let's Build Something Together</h2>
 
     <p>
         Interested in DevOps, Cloud and automation opportunities?
         Feel free to connect with me.
     </p>
 
-    <div class="contact-buttons">
-        <a href="https://github.com/" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-        <a href="mailto:your-email@gmail.com">Email</a>
+
+    <div class="contact-info">
+
+        <a href="tel:7411305930">
+            📱 7411305930
+        </a>
+
+
+        <a href="mailto:arbaz186186@gmail.com">
+            📧 arbaz186186@gmail.com
+        </a>
+
+
+        <a href="https://github.com/arbaz186186-cmyk"
+           target="_blank">
+            💻 GitHub
+        </a>
+
+
+        <a href="https://www.linkedin.com/in/mohammedarbaz-jamadar-7412b4422"
+           target="_blank">
+            🔗 LinkedIn
+        </a>
+
     </div>
 
 </section>
 
+
+
+<!-- FOOTER -->
+
 <footer>
-    <p>© 2026 Mohammed Arbaz | DevOps Engineer</p>
+
+    <p>
+        © 2026 Mohammed Arbaz. Built with HTML & CSS.
+    </p>
+
 </footer>
 
+
 </body>
+
 </html>
